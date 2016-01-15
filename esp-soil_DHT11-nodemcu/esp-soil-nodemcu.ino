@@ -1,8 +1,5 @@
 #include <ESP8266WiFi.h>
-#include <OneWire.h>
 #include <dht11.h>
-//#define myPeriodic 15
-//OneWire oneWire(ONE_WIRE_BUS);
 
 dht11 DHT;
 
@@ -10,13 +7,12 @@ const int pin_clk = 4;
 const int pin_soil = A0;
 const int pin_led = 5;
 float prevTemp = 0;
-//const int pin_vcc = 0;
 const int pin_read = 2;
 
 const char* host = "api.thingspeak.com";
-String apiKey ="MM7DELZO1KV54944";
-const char* MY_SSID = "siyue1L"; 
-const char* MY_PWD = "siyuexiongdi";
+String apiKey ="YOUR APIKEYS";
+const char* MY_SSID = "YOUR SSID"; 
+const char* MY_PWD = "YOUR PASSWORD";
 
 #define SLEEPTIME 5*60*1000*1000
 
