@@ -4,7 +4,7 @@
 #define pin_led  4
 
 #define PIN_ENABLE_ESP 13
-#define SLEEP_TIME 50000000
+#define SLEEP_TIME 5*1000*1000
  int FIGURE = 1;
 
 void setup() {
