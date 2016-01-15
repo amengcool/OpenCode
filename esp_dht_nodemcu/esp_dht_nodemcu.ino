@@ -8,9 +8,9 @@ const int pin_vcc = 4;
 const int pin_read = 5;
 float prevTemp = 0;
 const char* server = "api.thingspeak.com";
-String apiKey ="NA14SN41BLPVFG5E";
-const char* MY_SSID = "siyue1L"; 
-const char* MY_PWD = "siyuexiongdi";
+String apiKey ="YOUR API_KEYS";
+const char* MY_SSID = "YOUR SSID"; 
+const char* MY_PWD = "YOUR PASSWORD";
 int sent = 0;
 
 void setup() {
