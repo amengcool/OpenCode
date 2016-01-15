@@ -9,9 +9,9 @@ const int pin_soil = A0;
 const int pin_led = 5;
 float prevTemp = 0;
 const char* server = "api.thingspeak.com";
-String apiKey ="3QJUQ8I818FYEXQ9";
-const char* MY_SSID = "siyue1L"; 
-const char* MY_PWD = "siyuexiongdi";
+String apiKey ="YOUR API_KEYS";
+const char* MY_SSID = "YOUR SSID"; 
+const char* MY_PWD = "YOUR PASSWORD";
 int sent = 0;
 #define SLEEPTIME 5*60*1000*1000
 
